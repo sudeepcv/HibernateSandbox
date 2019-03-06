@@ -12,7 +12,7 @@ import org.hibernate.cfg.Configuration;
 public class App 
 {
     public static void main( String[] args )
-    {   
+    {    
         Person p=new Person(); 
         p.setName("sudeep");
         Configuration configuration=new Configuration().configure().addAnnotatedClass(Person.class);
